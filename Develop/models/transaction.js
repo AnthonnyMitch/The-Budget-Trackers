@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const transactionSchema = new Schema(
   {
     name: {
-      type: String,
+      type: String, 
       trim: true,
       required: "Enter a name for transaction"
     },
